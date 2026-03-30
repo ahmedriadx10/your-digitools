@@ -2,7 +2,7 @@ import { use, useState } from "react";
 import Products from "./products/Products";
 import Carts from "./carts/Carts";
 
-const ProductsManagement = ({dataPromise}) => {
+const ProductsManagement = ({dataPromise,carts,setCarts}) => {
  
 const productsData=use (dataPromise)
 
@@ -25,7 +25,7 @@ const productsData=use (dataPromise)
 </div>
 
 
-{products==='products'?<Products productsData={productsData}/> : <Carts/>}
+{products==='products'?<Products productsData={productsData} carts={carts} setCarts={setCarts} /> : <Carts carts={carts} setCarts={setCarts}  />}
 
 
 

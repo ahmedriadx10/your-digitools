@@ -1,7 +1,7 @@
 import ListTick from "../../ui/ListTick";
 import ProductCard from "../../ui/ProductCard";
 
-const Products = ({productsData}) => {
+const Products = ({productsData,carts,setCarts}) => {
  
  
  
@@ -10,7 +10,7 @@ const Products = ({productsData}) => {
 
 
 
-{productsData.map((product)=><ProductCard key={product.id} productData={product} />)}
+{productsData.map((product)=><ProductCard key={product.id} productData={product} carts={carts} setCarts={setCarts} />)}
 
 
 

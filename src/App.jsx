@@ -23,7 +23,7 @@ const App = () => {
   return (
     <>
  <header>
-     <Navbar/>
+     <Navbar carts={carts}/>
  </header>
 
  {/* banner area */}
@@ -35,7 +35,7 @@ const App = () => {
 
 {/* products management area */}
 
-<ProductsManagement dataPromise={dataPromise}/>
+<ProductsManagement dataPromise={dataPromise}  carts={carts} setCarts={setCarts} />
 
 
 {/* steps section */}
