@@ -1,5 +1,6 @@
 import Hero from "./coponents/hero/Hero";
 import Navbar from "./coponents/navbar/Navbar";
+import Status from "./coponents/status/Status";
 
 const App = () => {
   return (
@@ -11,6 +12,9 @@ const App = () => {
  {/* banner area */}
 
 <Hero/>
+
+{/* status area */}
+<Status/>
 
     </>
   );

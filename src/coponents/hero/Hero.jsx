@@ -7,11 +7,11 @@ const Hero = () => {
     <section className="max-w-7xl mx-auto w-[90%]">
       <div className="py-20">
         <div className="flex justify-between items-center   flex-col lg:flex-row-reverse gap-14">
-          <img src={heroImag} className="lg:max-w-sm   " />
+          <img src={heroImag} className="lg:max-w-sm   "  alt="banner img"/>
           <div className=" lg:max-w-2xl space-y-4 ">
             <div className="flex gap-1.5 items-center  max-w-max py-2 px-4 rounded-full bg-[#E1E7FF]">
               <div>
-                <img src={icon} alt="" />
+                <img src={icon} alt="gradient hero icon" />
               </div>
               <p className="font-medium bg-linear-(--primaryGradient) bg-clip-text text-transparent">
                 New: AI-Powered Tools Available
@@ -37,7 +37,7 @@ const Hero = () => {
                 extraStyle={"transition-transform hover:-translate-y-0.5"}
               />
               <button className="btn btn-primary  btn-outline font-bold  rounded-full transition-transform  hover:-translate-y-0.5">
-                <img src={PlayIcon} alt="" />
+                <img src={PlayIcon} alt="play icon"  />
                 <span className="bg-linear-(--primaryGradient) bg-clip-text text-transparent ">
                   Watch Demo
                 </span>
