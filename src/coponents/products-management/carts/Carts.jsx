@@ -1,10 +1,12 @@
 import CartCard from "../../ui/CartCard";
 import empthyCartImg from '../../../assets/images/empthy-cart.png'
+import { toast } from "react-toastify";
 const Carts = ({carts,setCarts}) => {
   
 
   const handleCheckout=()=>{
     setCarts([])
+    toast.success('Payment successfull')
   }
 
   if(carts.length>0){

@@ -1,3 +1,4 @@
+import { toast } from "react-toastify";
 
 const CartCard = ({cartData,carts,setCarts}) => {
 
@@ -8,7 +9,7 @@ const handleCartRemove=()=>{
   const filterDataWithoutIt= carts.filter((item)=>item.id!==id)
 
   setCarts(filterDataWithoutIt)
-
+toast.success('Cart item removed')
 
 }
 

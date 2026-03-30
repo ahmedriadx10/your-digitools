@@ -10,7 +10,7 @@ const productsData=use (dataPromise)
   const [products,setProducts]=useState('products')
  
   return (
-    <section className="py-30 border max-w-7xl mx-auto w-[90%]">
+    <section className="py-30  max-w-7xl mx-auto w-[90%]">
       
 
 <div className="text-center space-y-4 max-w-xl mx-auto w-[90%] mb-10">

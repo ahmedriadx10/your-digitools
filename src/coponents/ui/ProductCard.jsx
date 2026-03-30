@@ -32,6 +32,7 @@ const ProductCard = ({ productData, carts, setCarts }) => {
 
 setCarts([...carts,productData])
 setAddedCart(!addedCart)
+toast.success('Add to cart successfull')
   };
 
   return (
@@ -58,7 +59,7 @@ setAddedCart(!addedCart)
         </ul>
 
         <button
-          className={`btn  w-full rounded-full text-white font-bold ${addedCart?"bg-success":'bg-linear-(--primaryGradient)'} `}
+          className={`btn  w-full rounded-full text-white font-bold ${addedCart?"bg-green-500":'bg-linear-(--primaryGradient)'} `}
           onClick={handleCartAdd}
         >
           {addedCart? <span className="inline-flex items-center">        <svg
@@ -75,7 +76,7 @@ setAddedCart(!addedCart)
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Added to Cart</span></span> : <span>Buy Now</span>}
+                <span>Added to cart</span></span> : <span>Buy Now</span>}
         </button>
       </div>
     </div>
