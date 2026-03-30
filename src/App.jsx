@@ -7,6 +7,7 @@ import Status from "./coponents/status/Status";
 import Steps from "./coponents/steps/Steps";
 import Workflow from "./coponents/workflow/Workflow";
 import ProductsManagement from "./coponents/products-management/ProductsManagement";
+import { ToastContainer } from "react-toastify";
 
 const dataLoader=async ()=>{
   const res=await fetch('/digitools.json')
@@ -53,6 +54,8 @@ const App = () => {
   <Workflow/>
 
 {/* footer section */}
+
+<ToastContainer/>
 
 <Footer/>
     </>

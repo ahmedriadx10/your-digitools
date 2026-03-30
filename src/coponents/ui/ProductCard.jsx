@@ -1,21 +1,37 @@
 import { useState } from "react";
 import ListTick from "./ListTick";
+import { toast } from "react-toastify";
 
 
-const ProductCard = ({ productData, carts, setCarts }) => {
+const ProductCard = ({ productData, carts, setCarts }) => { 
+  const { name, description, price, period, tag, features, icon,id } = productData;
+   const findDataInsideCart=carts.find((item)=>item.id===id)
 
-
-  const [addedCart, setAddedCart] = useState(false);
+  const [addedCart, setAddedCart] = useState(!!findDataInsideCart);
 
  
 
-  const { name, description, price, period, tag, features, icon } = productData;
+ 
 
+
+
+   
   const handleCartAdd = () => {
-    setAddedCart(!addedCart);
+    
+     
+
+    if(findDataInsideCart){
+      
+      toast.error('Products already added')
+      
+      return
+    }
+
+
+
 
 setCarts([...carts,productData])
-
+setAddedCart(!addedCart)
   };
 
   return (
@@ -42,10 +58,24 @@ setCarts([...carts,productData])
         </ul>
 
         <button
-          className={`btn bg-linear-(--primaryGradient) w-full rounded-full text-white font-bold  `}
+          className={`btn  w-full rounded-full text-white font-bold ${addedCart?"bg-success":'bg-linear-(--primaryGradient)'} `}
           onClick={handleCartAdd}
         >
-          {addedCart ? "Added to cart" : "Buy Now"}
+          {addedCart? <span className="inline-flex items-center">        <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="size-5 me-2 inline-block text-white"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span>Added to Cart</span></span> : <span>Buy Now</span>}
         </button>
       </div>
     </div>
