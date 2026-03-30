@@ -1,5 +1,5 @@
 import CartCard from "../../ui/CartCard";
-
+import empthyCartImg from '../../../assets/images/empthy-cart.png'
 const Carts = ({carts,setCarts}) => {
   
 
@@ -41,8 +41,13 @@ const Carts = ({carts,setCarts}) => {
 
 
   return (
-    <div className="">
+    <div className=" py-10">
      
+     <div>
+<div><img src={empthyCartImg} alt="empthy cart image" className="w-30 h-auto mx-auto" /></div>
+<h2 className="text-3xl font-semibold text-neutral-600 text-center mt-3">Your cart is empthy</h2>
+
+     </div>
 
 
     </div>

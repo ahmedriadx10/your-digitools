@@ -19,7 +19,7 @@ const productsData=use (dataPromise)
 
 <div className="max-w-max rounded-full border border-zinc-200 p-1 mx-auto flex gap-5">
 <button className={`btn rounded-full btn-ghost ${products==='products'? 'bg-linear-(--primaryGradient) text-white font-bold':''} `} onClick={()=>setProducts('products')}>Products</button>
-<button className={`btn rounded-full btn-ghost ${products==='cart'? 'bg-linear-(--primaryGradient) text-white font-bold':''}`} onClick={()=>setProducts('cart')}>Cart(0)</button>
+<button className={`btn rounded-full btn-ghost ${products==='cart'? 'bg-linear-(--primaryGradient) text-white font-bold':''}`} onClick={()=>setProducts('cart')}>Cart({carts.length})</button>
 </div>
 
 </div>

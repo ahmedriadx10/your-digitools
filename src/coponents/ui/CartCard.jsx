@@ -1,12 +1,22 @@
 
 const CartCard = ({cartData,carts,setCarts}) => {
 
-  const {icon,name,price}=cartData
+  const {icon,name,price,id}=cartData
+
+const handleCartRemove=()=>{
+
+  const filterDataWithoutIt= carts.filter((item)=>item.id!==id)
+
+  setCarts(filterDataWithoutIt)
+
+
+}
+
 
   return (
     <div className="flex justify-between p-5 rounded-2xl bg-[#F9FAFC]">
       
-      <div className="flex items-center gap-4 border">
+      <div className="flex items-center gap-4 ">
          <span className="border border-zinc-100 rounded-full  w-14 h-14 text-3xl inline-flex justify-center items-center">
           {icon}
 
@@ -20,7 +30,7 @@ const CartCard = ({cartData,carts,setCarts}) => {
 
       </div>
 
-<button className="btn btn-ghost text-[#FF3980] font-bold">Remove</button>
+<button className="btn btn-ghost text-[#FF3980] font-bold" onClick={handleCartRemove}>Remove</button>
 
     </div>
   );
