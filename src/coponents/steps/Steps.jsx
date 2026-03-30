@@ -5,7 +5,7 @@ const Steps = () => {
   return (
     <section className="py-30 bg-[#F9FAFC]">
       <div className="text-center space-y-4">
-        <h4 className="text-5xl font-extrabold text-(--primaryColor)">
+        <h4 className="text-4xl sm:text-5xl font-extrabold text-(--primaryColor)">
           Get Started in 3 Steps
         </h4>
         <p className="text-(--primaryContent) leading-5">
@@ -14,7 +14,10 @@ const Steps = () => {
 
         {/* steps card container */}
 
-        <div className="max-w-7xl mx-auto w-[90%] grid gap-7.5    sm:grid-cols-2 lg:grid-cols-3 py-10">
+     
+      </div> 
+      
+        <div className="max-w-7xl mx-auto w-[90%] grid gap-7.5    sm:grid-cols-2 lg:grid-cols-3 pt-10">
           <div className=" space-y-4 p-6 border-2 border-zinc-200 transition-transform rounded-2xl">
             <div className=" flex justify-end">
               <span className="bg-linear-(--primaryGradient) w-10 h-10 inline-flex justify-center items-center font-bold text-white rounded-full">
@@ -71,7 +74,6 @@ const Steps = () => {
             </p>
           </div>
         </div>
-      </div>
     </section>
   );
 };
