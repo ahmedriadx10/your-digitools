@@ -140,7 +140,7 @@ const Pricing = () => {
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="size-4 me-2 inline-block text-success"
+                  className="size-4 me-2 inline-block text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -157,7 +157,7 @@ const Pricing = () => {
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="size-4 me-2 inline-block text-success"
+                  className="size-4 me-2 inline-block text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -174,7 +174,7 @@ const Pricing = () => {
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="size-4 me-2 inline-block text-success"
+                  className="size-4 me-2 inline-block text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -191,7 +191,7 @@ const Pricing = () => {
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="size-4 me-2 inline-block text-success"
+                  className="size-4 me-2 inline-block text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -209,7 +209,7 @@ const Pricing = () => {
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="size-4 me-2 inline-block text-success"
+                  className="size-4 me-2 inline-block text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -226,7 +226,7 @@ const Pricing = () => {
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="size-4 me-2 inline-block text-success"
+                  className="size-4 me-2 inline-block text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"

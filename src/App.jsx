@@ -3,6 +3,7 @@ import Navbar from "./coponents/navbar/Navbar";
 import Pricing from "./coponents/pricing/Pricing";
 import Status from "./coponents/status/Status";
 import Steps from "./coponents/steps/Steps";
+import Workflow from "./coponents/workflow/Workflow";
 
 const App = () => {
   return (
@@ -31,6 +32,10 @@ const App = () => {
   {/* pricing section */}
 
   <Pricing/>
+
+  {/* workflow area */}
+
+  <Workflow/>
 
     </>
   );
