@@ -51,7 +51,7 @@ const Footer = () => {
           </nav>
         </footer>
 
-        <div className="sm:flex justify-between items-center py-8 border-t border-zinc-700 text-neutral-400">
+        <div className="space-y-5 sm:flex   justify-between items-center py-8 border-t border-zinc-700 text-neutral-400">
           <p>
             &copy; {new Date().getFullYear()} Digitools. All rights
             reserved.{" "}

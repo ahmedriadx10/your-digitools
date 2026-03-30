@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "SaaSFlow Builder",
+    "description": "Streamline your business processes with intuitive automation and drag-and-drop workflows.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Unlimited Workflows", "Custom Integrations", "Real-time Analytics"],
+    "icon": "⚡"
+  },
+  {
+    "id": 2,
+    "name": "PixelGuard Pro",
+    "description": "Premium asset protection and portfolio management specifically designed for digital artists.",
+    "price": 120,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Watermark Automation", "Client Proofing", "500GB Storage"],
+    "icon": "🛡️"
+  },
+  {
+    "id": 3,
+    "name": "CodeLint AI",
+    "description": "Advanced AI debugger that identifies JavaScript bugs and provides real-time fix suggestions.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["AI Bug Detection", "Style Consistency", "VS Code Extension"],
+    "icon": "💻"
+  },
+  {
+    "id": 4,
+    "name": "SEO Rocket",
+    "description": "Boost your search engine visibility with instant keyword tracking and detailed audit reports.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Keyword Tracker", "Backlink Analysis", "Weekly Reports"],
+    "icon": "🚀"
+  },
+  {
+    "id": 5,
+    "name": "WriteEase",
+    "description": "A distraction-free editor with built-in grammar checking and plagiarism detection tools.",
+    "price": 80,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Plagiarism Checker", "Multi-language Support", "Offline Mode"],
+    "icon": "✍️"
+  },
+  {
+    "id": 6,
+    "name": "CloudSync Master",
+    "description": "A unified multi-cloud management system to keep all your files secure and accessible.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["End-to-End Encryption", "File Recovery", "Team Collaboration"],
+    "icon": "☁️"
+  },
+  {
+    "id": 7,
+    "name": "MailPulse",
+    "description": "The most effective platform for managing and scaling your email marketing campaigns.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["A/B Testing", "Smart Segmentation", "Heatmap Reports"],
+    "icon": "📧"
+  },
+  {
+    "id": 8,
+    "name": "DevDoc Generator",
+    "description": "Automatically generate professional technical documentation directly from your codebase.",
+    "price": 55,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Markdown Export", "Custom Themes", "GitHub Sync"],
+    "icon": "📄"
+  }
+]

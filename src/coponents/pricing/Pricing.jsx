@@ -244,7 +244,7 @@ const Pricing = () => {
             <div className="mt-6">
               <button className="btn btn-ghost bg-base-100 w-full rounded-full font-bold ">
                 <span className="bg-linear-(--primaryGradient) bg-clip-text text-transparent">
-                  Get Started Free
+                  Start Pro Trial
                 </span>
               </button>
             </div>
@@ -377,7 +377,7 @@ const Pricing = () => {
             </ul>
             <div className="mt-6">
               <button className="btn w-full font-bold rounded-full bg-linear-(--primaryGradient) text-white">
-                Get Started Free
+                Contact Sales
               </button>
             </div>
           </div>
