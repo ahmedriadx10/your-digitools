@@ -5,7 +5,7 @@ import Carts from "./carts/Carts";
 const ProductsManagement = ({dataPromise}) => {
  
 const productsData=use (dataPromise)
-console.log(productsData)
+
 
   const [products,setProducts]=useState('products')
  
@@ -25,7 +25,7 @@ console.log(productsData)
 </div>
 
 
-{products==='products'?<Products/> : <Carts/>}
+{products==='products'?<Products productsData={productsData}/> : <Carts/>}
 
 
 
