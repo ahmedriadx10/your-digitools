@@ -3,6 +3,9 @@ import empthyCartImg from '../../../assets/images/empthy-cart.png'
 const Carts = ({carts,setCarts}) => {
   
 
+  const handleCheckout=()=>{
+    setCarts([])
+  }
 
   if(carts.length>0){
 
@@ -32,7 +35,7 @@ const Carts = ({carts,setCarts}) => {
 
 <div className="mt-6">
 {/* proceed to checkout btn */}
- <button className="btn rounded-full w-full bg-linear-(--primaryGradient) text-white font-bold">Proceed to Checkout</button>
+ <button className="btn rounded-full w-full bg-linear-(--primaryGradient) text-white font-bold" onClick={handleCheckout} >Proceed to Checkout</button>
 </div>
 
       </div>
