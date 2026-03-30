@@ -1,4 +1,4 @@
-import Button from "../ui/Button";
+
 
 const Pricing = () => {
   return (
@@ -14,7 +14,7 @@ const Pricing = () => {
 
       {/* pricing cards */}
 
-      <div className="max-w-7xl mx-auto w-[90%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10  ">
+      <div className="max-w-7xl mx-auto w-[90%] grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10  ">
         <div className="card rounded-2xl  bg-[#F9FAFC]  border-2 border-zinc-100">
           <div className="card-body space-y-3 justify-between">
             <div className="space-y-2">

@@ -1,3 +1,4 @@
+import Footer from "./coponents/footer/Footer";
 import Hero from "./coponents/hero/Hero";
 import Navbar from "./coponents/navbar/Navbar";
 import Pricing from "./coponents/pricing/Pricing";
@@ -37,6 +38,9 @@ const App = () => {
 
   <Workflow/>
 
+{/* footer section */}
+
+<Footer/>
     </>
   );
 };
