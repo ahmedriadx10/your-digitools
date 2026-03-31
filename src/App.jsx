@@ -9,55 +9,54 @@ import Workflow from "./coponents/workflow/Workflow";
 import ProductsManagement from "./coponents/products-management/ProductsManagement";
 import { ToastContainer } from "react-toastify";
 
-const dataLoader=async ()=>{
-  const res=await fetch('/digitools.json')
-  return res.json()
-}
+const dataLoader = async () => {
+  const res = await fetch("/digitools.json");
+  return res.json();
+};
 
-const dataPromise=dataLoader()
-
+const dataPromise = dataLoader();
 
 const App = () => {
-
-  const [carts,setCarts]=useState([])
+  const [carts, setCarts] = useState([]);
 
   return (
     <>
- <header>
-     <Navbar carts={carts}/>
- </header>
+      <header>
+        <Navbar carts={carts} />
+      </header>
 
- {/* banner area */}
+      {/* banner area */}
 
-<Hero/>
+      <Hero />
 
-{/* status area */}
-<Status/>
+      {/* status area */}
+      <Status />
 
-{/* products management area */}
+      {/* products management area */}
 
-<ProductsManagement dataPromise={dataPromise}  carts={carts} setCarts={setCarts} />
+      <ProductsManagement
+        dataPromise={dataPromise}
+        carts={carts}
+        setCarts={setCarts}
+      />
 
+      {/* steps section */}
 
-{/* steps section */}
+      <Steps />
 
+      {/* pricing section */}
 
-  <Steps/>
+      <Pricing />
 
+      {/* workflow area */}
 
-  {/* pricing section */}
+      <Workflow />
 
-  <Pricing/>
+      {/* footer section */}
 
-  {/* workflow area */}
+      <ToastContainer />
 
-  <Workflow/>
-
-{/* footer section */}
-
-<ToastContainer/>
-
-<Footer/>
+      <Footer />
     </>
   );
 };
