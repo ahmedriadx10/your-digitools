@@ -6,7 +6,7 @@ const Products = ({productsData,carts,setCarts}) => {
  
  
   return (
-    <section className="sm:grid gap-8 grid-cols-2 lg:grid-cols-3">
+    <section className=" grid gap-8 md:grid-cols-2 lg:grid-cols-3 ">
 
 
 

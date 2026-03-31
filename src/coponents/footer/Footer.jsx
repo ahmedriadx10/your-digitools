@@ -5,9 +5,9 @@ import twitterImg from "../../assets/images/Twitter.png";
 const Footer = () => {
   return (
     <footer className="bg-(--primaryColor) pt-30">
-      <div className="max-w-7xl mx-auto w-[90%]">
-        <footer className=" grid sm:grid-cols-[300px_repeat(2,1fr)] md:grid-cols-[300px_repeat(3,1fr)] lg:grid-cols-[350px_repeat(4,1fr)] gap-7 text-neutral-400 pb-10 ">
-          <div className="">
+      <div className="max-w-300 mx-auto w-[90%]">
+        <footer className=" grid sm:grid-cols-[270px_repeat(2,1fr)] md:grid-cols-[300px_repeat(3,1fr)] lg:grid-cols-[350px_repeat(4,1fr)] gap-y-12 gap-x-8 text-neutral-400 pb-10 ">
+          <div className="max-w-96">
             <h6 className="text-4xl font-bold text-white mb-4">DigiTools</h6>
             <p>
               Premium digital tools for creators, professionals, and businesses.
@@ -51,16 +51,16 @@ const Footer = () => {
           </nav>
         </footer>
 
-        <div className="space-y-5 sm:flex   justify-between items-center py-8 border-t border-zinc-700 text-neutral-400">
-          <p>
+        <div className=" flex gap-5 flex-wrap  justify-between  py-8 border-t border-zinc-700 text-neutral-400">
+          <p className="">
             &copy; {new Date().getFullYear()} Digitools. All rights
-            reserved.{" "}
+            reserved.
           </p>
 
-          <ul className="flex gap-5 flex-wrap">
+          <ul className="flex gap-5 flex-wrap ">
             <li>
               <a href="" className="link link-hover">
-                Privacy Policy{" "}
+                Privacy Policy
               </a>
             </li>
             <li>

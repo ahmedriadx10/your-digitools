@@ -4,7 +4,7 @@ import Button from "../ui/Button";
 import PlayIcon from "../../assets/images/Play.png";
 const Hero = () => {
   return (
-    <section className="max-w-7xl mx-auto w-[90%]">
+    <section className="max-w-300 mx-auto w-[90%]">
       <div className="py-20">
         <div className="flex justify-between items-center   flex-col lg:flex-row-reverse gap-14">
           <img src={heroImag} className="lg:max-w-sm   "  alt="banner img"/>
@@ -18,7 +18,7 @@ const Hero = () => {
               </p>
             </div>
             <h1 className="text-4xl sm:text-5xl  xl:text-6xl font-extrabold text-(--primaryColor) ">
-              Supercharge Your{" "}
+              Supercharge Your
             </h1>
             <h1 className="text-4xl sm:text-5xl  xl:text-6xl font-extrabold text-(--primaryColor) ">
               Digital Workflow
@@ -30,7 +30,7 @@ const Hero = () => {
             </p>
             {/* hero buttons */}
 
-            <div className="space-x-4 flex">
+            <div className="gap-4 py-4 flex">
               <Button
                 text="Explore Products"
                 fontWeight={"bold"}

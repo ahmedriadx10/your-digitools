@@ -1,12 +1,12 @@
 const Workflow = () => {
   return (
     <section className="py-30 bg-linear-(--primaryGradient)">
-      <div className="max-w-2xl text-center mx-auto w-[90%] space-y-10 text-white">
+      <div className="max-w-175 text-center mx-auto w-[90%] space-y-10 text-white">
         <div className="space-y-4">
-          <h6 className="text-4xl font-extrabold">
+          <h6 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-extrabold">
             Ready to Transform Your Workflow?
           </h6>
-          <p className="leading-6">
+          <p className="leading-6 sm:px-5">
             Join thousands of professionals who are already using Digitools to
             work smarter. Start your free trial today.
           </p>

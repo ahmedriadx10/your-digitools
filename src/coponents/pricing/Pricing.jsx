@@ -3,8 +3,8 @@
 const Pricing = () => {
   return (
     <section className="py-30">
-      <div className="text-center space-y-4 ">
-        <h4 className=" text-4xl sm:text-5xl font-extrabold text-(--primaryColor)">
+      <div className="text-center max-w-2xl mx-auto w-[90%]  space-y-4 ">
+        <h4 className=" text-3xl sm:text-4xl md:text-5xl font-extrabold text-(--primaryColor)">
           Simple, Transparent Pricing
         </h4>
         <p className="text-(--primaryContent)">
@@ -14,7 +14,7 @@ const Pricing = () => {
 
       {/* pricing cards */}
 
-      <div className="max-w-7xl mx-auto w-[90%] grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10  ">
+      <div className="max-w-300 mx-auto w-[90%] grid  md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10  ">
         <div className="card rounded-2xl  bg-[#F9FAFC]  border-2 border-zinc-100">
           <div className="card-body space-y-3 justify-between">
             <div className="space-y-2">

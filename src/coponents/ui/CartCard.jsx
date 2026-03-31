@@ -15,7 +15,7 @@ toast.success('Cart item removed')
 
 
   return (
-    <div className="flex justify-between p-5 rounded-2xl bg-[#F9FAFC]">
+    <div className="flex justify-between p-5 rounded-2xl items-center bg-[#F9FAFC]">
       
       <div className="flex items-center gap-4 ">
          <span className="border border-zinc-100 rounded-full  w-14 h-14 text-3xl inline-flex justify-center items-center">

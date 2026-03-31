@@ -10,11 +10,11 @@ const productsData=use (dataPromise)
   const [products,setProducts]=useState('products')
  
   return (
-    <section className="py-30  max-w-7xl mx-auto w-[90%]">
+    <section className="py-30  max-w-300 mx-auto w-[90%]">
       
 
 <div className="text-center space-y-4 max-w-xl mx-auto w-[90%] mb-10">
-<h4 className="text-(--primaryColor) text-4xl sm:text-5xl font-extrabold">Premium Digital Tools</h4>
+<h4 className="text-(--primaryColor) text-3xl sm:text-4xl md:text-5xl font-extrabold">Premium Digital Tools</h4>
 <p className="text-(--primaryContent)">Choose from our curated collection of premium digital products designed to boost your productivity and creativity.</p>
 
 <div className="max-w-max rounded-full border border-zinc-200 p-1 mx-auto flex gap-5">

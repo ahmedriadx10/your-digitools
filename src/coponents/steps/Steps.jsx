@@ -4,8 +4,8 @@ import rocketImg from "../../assets/images/rocket.png";
 const Steps = () => {
   return (
     <section className="py-30 bg-[#F9FAFC]">
-      <div className="text-center space-y-4">
-        <h4 className="text-4xl sm:text-5xl font-extrabold text-(--primaryColor)">
+      <div className="text-center space-y-4 max-w-xl mx-auto w-[90%]">
+        <h4 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-(--primaryColor)">
           Get Started in 3 Steps
         </h4>
         <p className="text-(--primaryContent) leading-5">
@@ -17,10 +17,10 @@ const Steps = () => {
      
       </div> 
       
-        <div className="max-w-7xl mx-auto w-[90%] grid gap-7.5    sm:grid-cols-2 lg:grid-cols-3 pt-10">
-          <div className=" space-y-4 p-6 border-2 border-zinc-200 transition-transform rounded-2xl">
+        <div className="max-w-300 mx-auto w-[90%] grid gap-7.5 text-center   sm:grid-cols-2 lg:grid-cols-3 pt-10">
+          <div className=" space-y-4 p-6 border-2 border-zinc-200  rounded-2xl">
             <div className=" flex justify-end">
-              <span className="bg-linear-(--primaryGradient) w-10 h-10 inline-flex justify-center items-center font-bold text-white rounded-full">
+              <span className="bg-linear-(--primaryGradient) mb-3 w-10 h-10 inline-flex justify-center items-center font-bold text-white rounded-full">
                 01
               </span>
             </div>
@@ -39,7 +39,7 @@ const Steps = () => {
           </div>
           <div className="space-y-4 p-6 border-2 border-zinc-200 rounded-2xl">
             <div className=" flex justify-end">
-              <span className="bg-linear-(--primaryGradient) w-10 h-10 inline-flex justify-center items-center font-bold text-white rounded-full">
+              <span className="bg-linear-(--primaryGradient) mb-3 w-10 h-10 inline-flex justify-center items-center font-bold text-white rounded-full">
                 02
               </span>
             </div>
@@ -57,7 +57,7 @@ const Steps = () => {
           </div>
           <div className="space-y-4 p-6 border-2 border-zinc-200 rounded-2xl">
             <div className=" flex justify-end">
-              <span className="bg-linear-(--primaryGradient) w-10 h-10 inline-flex justify-center items-center font-bold text-white rounded-full">
+              <span className="bg-linear-(--primaryGradient) mb-3 w-10 h-10 inline-flex justify-center items-center font-bold text-white rounded-full">
                 03
               </span>
             </div>
