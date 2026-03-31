@@ -21,6 +21,8 @@ const App = () => {
 
   return (
     <>
+
+    {/* header area */}
       <header>
         <Navbar carts={carts} />
       </header>
